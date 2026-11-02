@@ -1,0 +1,15 @@
+# 基础科学计算
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+
+# 心音/音频处理
+librosa>=0.10
+soundfile>=0.12
+wfdb>=4.1
+
+# 可视化
+matplotlib>=3.7
+
+# 深度学习（自监督表征学习与分类）
+torch>=2.0
