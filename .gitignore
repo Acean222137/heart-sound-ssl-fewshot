@@ -1,0 +1,31 @@
+# ===== 数据文件：绝不上传 =====
+data/*
+!data/README.md
+*.wav
+*.hea
+*.dat
+*.mat
+*.tsv
+*.flac
+*.npy
+*.npz
+
+# ===== 实验产物 =====
+*.ckpt
+*.pt
+*.pth
+checkpoints/
+runs/
+wandb/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
